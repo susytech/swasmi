@@ -1,0 +1,24 @@
+[package]
+name = "swasmi"
+version = "0.3.0"
+authors = ["Nikolay Volf <nikvolf@gmail.com>", "Svyatoslav Nikolsky <svyatonik@yandex.ru>", "Sergey Pepyakin <s.pepyakin@gmail.com>"]
+exclude = ["/res/*", "/tests/*", "/fuzz/*", "/benches/*"]
+description = "WebAssembly interpreter"
+documentation = "https://susytech.github.io/swasmi/"
+readme = "README.md"
+keywords = ["wasm", "webassembly", "bytecode", "interpreter"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/susytech/swasmi"
+[dependencies.byteorder]
+version = "1.0"
+
+[dependencies.memory_units]
+version = "0.3.0"
+
+[dependencies.nan-preserving-float]
+version = "0.1.0"
+
+[dependencies.swasm]
+version = "0.31"
+[dev-dependencies.assert_matches]
+version = "1.1"
